@@ -1,0 +1,17 @@
+============== TEST ET VALIDATION  DE LOGICIEL ============================
+# condition: pour tester ce projet il faut avoir installé node js et npm et installé 
+jest dans la racine du projet " pour cela faire: npm i jest"
+jest est un package de test en js. 
+
+
+# contenu: le dossier contient un fichier nomme calcutrice.js qui contient la classe Calculatrice
+et 4 methodes qui contituent les operation(addition, soustraction, multiplication, division)
+ et un autre fichier nommé calculatrice.test.js c'est dans ce dossier que nous avons ecrit nos fonctions de test et les données de test correspondants.
+ 
+# executer: creer un nouveau dossier, aller a la racine de votre dossier et executer dans votre terminal: "npm init -y",
+ensuite executer "npm i jest";
+ouverez le dossier package.json, changer cette ligne comme ceci    "test": "jest"
+copier les deux fichiers calculatrice.test.js et calculatrice.js dans votre dossiers
+pour tester le test executer la commandes suivante dans la racine de votre projet: "npm run test"
+le resultat doit etre semblable au capture d'ecran qui se trouve dans le dossier
+
